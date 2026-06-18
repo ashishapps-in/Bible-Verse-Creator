@@ -1,2 +1,214 @@
 # Bible-Verse-Creator
 Make Beautiful Bible Verse Images from 12+ Bible Languages with Advance yet simple Controls
+
+
+
+# Bible Verse Creator v3.1.1 – Release Notes
+
+**Latest Release** | [Download APK](https://github.com/ashishapps/bible-verse-creator/releases/download/v3.1.1/app-release.apk) | [Google Play](https://play.google.com/store/apps/details?id=com.ashishapps.bibleversecreator)
+
+---
+
+## 📖 What's New in v3.1.1
+
+This release brings a **production-ready Bible verse image maker** with comprehensive features for creators, churches, and faith communities.
+
+### ✨ Core Features
+
+#### 📚 **12+ Bible Translations**
+- Hindi, English (KJV), Hebrew, Greek
+- Bengali, Malayalam, Marathi, Nepali, Oriya, Punjabi, Telugu
+- **Transliteration support:** Roman ↔ Devanagari / Gurmukhi conversions
+- Instant verse switching across languages
+
+#### 🎨 **Smart Canvas Engine**
+- **3 aspect ratios:** Square (1:1), Portrait (9:16), Landscape (16:9)
+- **Live preview:** See changes in real-time
+- **HTML5 Canvas rendering** with 1080px high-quality export
+- Automatic verse text wrapping with custom font sizing
+
+#### 🌅 **Background Customization**
+- **Unsplash AI Integration:** Fresh spiritual + nature images (5 per hour)
+- **Gradient mode:** Choose 2 colors, linear gradient applied
+- **Dark overlay:** Adjustable opacity (0–90%) for text readability
+- **Background toggle:** Switch between image and gradient instantly
+
+#### 🔤 **Typography Control**
+- **4 premium fonts:** Merriweather, Inter, Playfair Display, Outfit
+- **Font size slider:** Auto-wraps long verses
+- **Text shadow:** For better contrast on complex backgrounds
+- **Reference line:** Bible translation + verse reference auto-formatted
+
+#### 🎯 **Theme System**
+- **3 themes:** Dark, Light, Sepia
+- **Glassmorphism toggle:** Blur + transparency effects on UI panels
+- **Per-element color control:** Customize text, overlay, accents
+- **Theme persistence:** Auto-saves to device
+
+#### 🔥 **Daily Streak Tracker**
+- Track consecutive days of verse sharing
+- **7-day timeline view** with visual progress
+- Current streak + all-time best streak badges
+- Motivational notifications & rewards
+- Automatic date validation (same-day blocks, gap resets)
+
+#### 🎲 **Random Verse Generator**
+- One-tap random verse across all translations
+- **Auto-advance timer:** Set 0–60s interval for continuous browsing
+- Perfect for daily devotionals
+- Pre-loads next verse for smooth UX
+
+#### 💾 **Export & Sharing**
+- **High-quality PNG export:** 1080×1080 / 1080×1920 / 1920×1080px
+- **Native share sheet:** One tap → WhatsApp, Instagram, Email, etc.
+- **Auto-save to gallery:** (Android with permission)
+- **Watermark toggle:** "Created with Bible Verse Creator"
+
+#### 🎨 **Custom Text Overlay**
+- Add personalized text to verse images
+- **Position control:** Horizontal + vertical sliders
+- **Font size:** 10–100px range
+- **Color picker:** Full RGB color selection
+- Perfect for names, dates, event details
+
+#### 📲 **Daily Verse Reminders**
+- **5 beautiful notifications:** Different verses each day
+- Scheduled at user-selected time (default 8:00 AM)
+- Clickable to open app + load that verse
+- Uses Capacitor LocalNotifications (native Android integration)
+
+#### ⚙️ **Comprehensive Settings**
+- Default Bible translation
+- Splash screen duration (1–8s or skip entirely)
+- Theme + glassmorphism toggle
+- Auto-advance timer configuration
+- Reminder time picker
+- HQ export toggle (1080px vs 540px)
+- Remember last verse on app reopen
+- **Reset all** button for factory defaults
+
+#### 🎭 **Splash Screen**
+- **Animated logo:** Scales in with bounce effect
+- **Loading bar:** Shimmer gradient fill
+- **Floating particles:** Decorative background animation
+- **Configurable duration:** 1–8 seconds
+- Skip option for returning users
+
+#### 💰 **AdMob Monetization**
+- **Banner ads:** Bottom of screen (adaptive)
+- **Interstitial ads:** After image download (non-intrusive)
+- **App open ads:** On launch
+- Native ad slots prepared for future updates
+- Frequency capped to maintain UX
+
+#### 🎯 **Native Android Features**
+- **Status bar integration:** No content hiding behind notch
+- **Back button handling:** Smart modal/navigation flow
+- **Image save & share:** Direct to system share sheet
+- **Offline-first:** All bibles bundled in app
+
+#### 🖥️ **Desktop Support**
+- **Electron wrapper:** Windows + Mac support
+- Full feature parity with Android
+- NSIS installer for Windows
+- Portable executable
+
+---
+
+## 🐛 Bug Fixes (v3.1.1)
+
+✅ **Fixed blank screen issue** – Removed incorrect `server.url` from capacitor.config.json  
+✅ **Bumped versionCode to 5** – Resolved Google Play duplicate version conflict  
+✅ **Disabled bundle splits** – Reduced AAB size from 78.8 MB → 24.7 MB  
+✅ **ProGuard/R8 optimization** – Improved app startup speed & crash reporting  
+✅ **Status bar padding fix** – Content no longer hidden behind Android status bar  
+✅ **Ad loading reliability** – Improved interstitial pre-caching  
+
+---
+
+## 🧪 Beta Tester Credits
+
+> **Note:** This build was tested with a **select group of beta testers** including:
+> - Church leaders & youth directors (content creation workflow validation)
+> - Seminary students (theological accuracy + multilingual testing)
+> - Android power users (offline functionality, storage edge cases)
+> - Prayer community members (daily reminder + streak system)
+
+**Special thanks for feedback on:**
+- Verse search performance across 12 languages
+- Transliteration accuracy (Devanagari ↔ Roman)
+- Image export quality on low-end devices
+- Streak system logic & motivation mechanics
+
+---
+
+## 📊 Technical Highlights
+
+- **Framework:** Apache Capacitor v8 (Android)
+- **Runtime:** Android 7.0+ (minSdk 24, targetSdk 36)
+- **UI:** Vanilla JavaScript + CSS3 (1544 lines, zero jQuery)
+- **Canvas:** HTML5 2D API with offscreen rendering
+- **Storage:** localStorage for settings + streak data
+- **Plugins:** Filesystem, Share, LocalNotifications, StatusBar, App
+- **Build:** Gradle 8.13 + R8 full optimization
+- **Signing:** Signed APK with production keystore
+
+---
+
+## 📥 Download & Install
+
+**Recommended:**
+- [Google Play Store](https://play.google.com/store/apps/details?id=com.ashishapps.bibleversecreator)
+- [Uptodown](https://uptodown.com)
+- [GitHub Releases (APK)](https://github.com/ashishapps/bible-verse-creator/releases)
+
+**Alternative (APK Sideload):**
+```bash
+adb install app-release.apk
+```
+
+---
+
+## 🎯 What's Coming Next
+
+- [ ] Cloud sync for streak data across devices
+- [ ] Custom background upload (user photos)
+- [ ] Verse scheduling (auto-post to social media)
+- [ ] Collaborative sharing (prayer group albums)
+- [ ] iOS support via Capacitor
+- [ ] Dark mode ambient image variants
+
+---
+
+## 📝 Full Changelog
+
+**v3.1.1** (Current)
+- Production release
+- 12+ Bible translations
+- Glassmorphism UI
+- Daily streak system
+- AdMob integration
+- All fixes applied
+
+**v3.0.0** (Previous)
+- Initial Capacitor build
+- Basic verse + image generation
+
+---
+
+## 📞 Support & Feedback
+
+Found a bug? Have a feature request?
+
+- **GitHub Issues:** [Report here](https://github.com/ashishapps/bible-verse-creator/issues)
+- **Twitter:** [@AshishApps](https://twitter.com/ashishdeepji)
+
+---
+
+**Made with ❤️ by Ashish Apps**  
+*Building tools for faith communities*
+
+---
+
+**Version:** 3.1.1 (Code: 5)  
+**Minimum Android:** 7.0+
